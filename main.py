@@ -95,8 +95,8 @@ def load_profile_photo():
     If the photo isn't found, it will use a placeholder.
     """
     try:
-        if os.path.exists("C:\TDM-GCC-32\Desktop\portfolio\photo.jpg"):
-            image = Image.open("C:\TDM-GCC-32\Desktop\portfolio\photo.jpg")
+        if os.path.exists("photo.jpg"):
+            image = Image.open("photo.jpg")
             return image
         else:
             return None
